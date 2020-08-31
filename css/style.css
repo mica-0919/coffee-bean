@@ -343,6 +343,12 @@ overflow: auto;
   /* background-color:black; */
 }
 
+@media only screen and (max-width:900px) {
+  .footer-1 .footer-content > div {
+    width: 290px;
+  }
+}
+
 .location h4 {
   color: #c7a17a;
   margin-top: 15px;
