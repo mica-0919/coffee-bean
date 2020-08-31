@@ -43,6 +43,18 @@ body {
   padding-top: 10px;
 }
 
+@media only screen and (max-width:700px) {
+  .nav ul {
+    width: 100%;
+  }
+  .nav li {
+    display: block;
+    text-align: left;
+    height: 35px;
+    width: 100%;
+  }
+}
+
 .nav a {
   font-family: "oswald", sans-serif;
   text-decoration: none;
